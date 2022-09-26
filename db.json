@@ -1,0 +1,2373 @@
+{
+  "logins": [
+    {
+      "id": 1,
+      "firstName": "Aman",
+      "lastName": "Pandey",
+      "phone": "9934433299",
+      "email": "admin@gmail.com",
+      "password": "1234",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "firstName": "Sachin",
+      "lastName": "Shav",
+      "phone": "7373723232",
+      "email": "staff@gmail.com",
+      "password": "1234",
+      "role": "staff"
+    },
+    {
+      "id": 3,
+      "firstName": "Akash",
+      "lastName": "Akku",
+      "phone": "7373723232",
+      "email": "inflight@gmail.com",
+      "password": "1234",
+      "role": "staff-in-flight"
+    }
+  ],
+  "flightData": [
+    {
+      "id": "1",
+      "flightT": "G8346",
+      "airline": "Spicejet",
+      "departureCityCode": "BLR",
+      "arrivalCityCode": "HYD",
+      "departureCity":"Bangalore",
+      "arrivalCity":"Hyderabad",
+      "totalTime":"2hr 10min",
+      "departureTime":"20:00",
+      "departureDay":"Tue",
+      "arivalDay":"Tue",
+      "arrivalTime":"22:10",
+      "departureDate": "23 Aug",
+      "arrivalDate": "23 Aug",
+      "logo":"SG.png",
+      "NumberOfStop":"T Stop",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":true
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":true
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":true
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":true
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":true
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":true
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "flightT": "11022",
+      "airline": "Air India",
+      "departureCityCode": "Mum",
+      "arrivalCityCode": "HYD",
+      "totalTime":"3hr 10min",
+      "departureTime":"10:00",
+      "departureDay":"Tue",
+      "arrivalDay":"Tue",
+      "departureCity":"Mumbai",
+      "arrivalCity":"Hyderabad",
+      "arrivalTime":"13:10",
+      "departureDate": "23 Aug",
+      "arrivalDate": "24 Aug",
+      "logo":"AI.png",
+      "NumberOfStop":"1 Stop",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":true
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":true
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":true
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":true
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":true
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":true
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "flightT": "6E2519",
+      "airline": "IndiGo",
+      "departureCityCode": "Delhi",
+      "arrivalCityCode": "Pune",
+      "arrivalCity":"Pune",
+      "totalTime":"2hr 10min",
+      "departureTime":"20:00",
+      "departureDay":"Tue",
+      "departureCity":"Delhi",
+      "arrivalDay":"Tue",
+      "arrivalTime":"22:10",
+      "departureDate": "22 Aug",
+      "arrivalDate": "22 Aug",
+      "logo":"IG.png",
+      "NumberOfStop":"T Stop",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":true
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":true
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":true
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":true
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":true
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":true
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "flightT": "AI605",
+      "airline": "GoFirst",
+      "departureCityCode": "BLR",
+      "arrivalCityCode": "HYD",
+      "totalTime":"2hr 10min",
+      "departureTime":"20:00",
+      "departureCity":"Bangalore",
+      "arrivalCity":"Hyderabad",
+      "departureDay":"Tue",
+      "arrivalDay":"Tue",
+      "arrivalTime":"22:10",
+      "departureDate": "23 Aug",
+      "arrivalDate": "23 Aug",
+      "logo":"GF.png",
+      "NumberOfStop":"No Stop",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":true
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":true
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":true
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":true
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":true
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":true
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    }
+  ],
+  "PassengerDetails": [
+    {
+      "id": 1,
+      "first_name": "Rajesh",
+      "last_name": "Yadav",
+      "date_of_birth": "4-Aug-1977",
+      "gender": "Male",
+      "address": "Pune",
+      "mobile_no": 9988776655,
+      "seat_no": "C1",
+      "passport": "PASS10000",
+      "wheelChair": true,
+      "infant":true,
+      "checked_in": true,
+      "flight_id": "1",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":true
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+      "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":true
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "first_name": "Arun",
+      "last_name": "Singh",
+      "date_of_birth": "4-Aug-1987",
+      "gender": "Male",
+      "address": "Bihar",
+      "mobile_no": 9988776655,
+      "seat_no": "D2",
+      "passport": "PASS10001",
+      "wheelChair": false,
+      "infant":true,
+      "checked_in": true,
+      "flight_id": "1",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "first_name": "DIVYA",
+      "last_name": "Barsode",
+      "date_of_birth": "12-Jan-1990",
+      "gender": "Female",
+      "address": "Mumbai",
+      "mobile_no": 9988776655,
+      "seat_no": "D9",
+      "passport": "PASS10002",
+      "wheelChair": false,
+      "infant": false,
+      "checked_in": true,
+      "flight_id": "3",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "first_name": "Shubham",
+      "last_name": "Upadhyay",
+      "date_of_birth": "3-Aug-1997",
+      "gender": "Male",
+      "address": "UP",
+      "mobile_no": 9988776655,
+      "seat_no": "B6",
+      "passport": "PASS10003",
+      "wheelChair": false,
+      "infant":true,
+      "checked_in": true,
+      "flight_id": "1",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "first_name": "AJAY",
+      "last_name": "NAGAR",
+      "date_of_birth": "20-May-1984",
+      "gender": "Male",
+      "address": "Mumbai",
+      "mobile_no": 9988776655,
+      "seat_no": "",
+      "passport": "",
+      "wheelChair": false,
+      "infant":true,
+      "checked_in": false,
+      "flight_id": "2",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "first_name": "ANAND",
+      "last_name": "Prajapati",
+      "date_of_birth": "12-Jan-1990",
+      "gender": "Male",
+      "address": "Ahemdabad",
+      "mobile_no": 9988776655,
+      "seat_no": "B2",
+      "passport": "",
+      "wheelChair": false,
+      "infant": false,
+      "checked_in": true,
+      "flight_id": "3",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "first_name": "OM",
+      "last_name": "PRAKASH",
+      "date_of_birth": "3-Aug-1967",
+      "gender": "Male",
+      "address": "lucknow",
+      "mobile_no": 9988776655,
+      "seat_no": "C7",
+      "passport": "PASS10004",
+      "wheelChair": true,
+      "infant": false,
+      "checked_in": true,
+      "flight_id": "1",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "first_name": "MOHAN",
+      "last_name": "KUMAR",
+      "date_of_birth": "20-May-1984",
+      "gender": "Male",
+      "address": "",
+      "mobile_no": 8768978654,
+      "seat_no": "",
+      "passport": "",
+      "wheelChair": false,
+      "infant": false,
+      "checked_in": false,
+      "flight_id": "2",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "first_name": "SACHIN",
+      "last_name": "Tendulkar",
+      "date_of_birth": "12-Jan-1990",
+      "gender": "Male",
+      "address": "Mumbai",
+      "mobile_no": 6789876545,
+      "seat_no": "",
+      "passport": "",
+      "wheelChair": false,
+      "infant":true,
+      "checked_in": false,
+      "flight_id": "3",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "first_name": "RAVI",
+      "last_name": "RAJ",
+      "date_of_birth": "3-Aug-1967",
+      "gender": "Male",
+      "address": "Gulbarga",
+      "mobile_no": 9898767854,
+      "seat_no": "A6",
+      "passport": "PASS10005",
+      "wheelChair": true,
+      "infant":true,
+      "checked_in": true,
+      "flight_id": "1",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "first_name": "SUMEET",
+      "last_name": "SARGAM",
+      "date_of_birth": "20-May-1984",
+      "gender": "Male",
+      "address": "New Delhi",
+      "mobile_no": 8768978654,
+      "seat_no": "",
+      "passport": "",
+      "wheelChair": false,
+      "infant": false,
+      "checked_in": false,
+      "flight_id": "2",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "first_name": "AYUSH",
+      "last_name": "KUMAR",
+      "date_of_birth": "12-Jan-1990",
+      "gender": "Male",
+      "address": "Hyderabad",
+      "mobile_no": 6789876545,
+      "seat_no": "C2",
+      "passport": "PASS10006",
+      "wheelChair": false,
+      "infant":true,
+      "checked_in": true,
+      "flight_id": "1",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "first_name": "PREM",
+      "last_name": "NATH",
+      "date_of_birth": "3-Aug-1997",
+      "gender": "Male",
+      "address": "Bangalore",
+      "mobile_no": 9898767854,
+      "seat_no": "C4",
+      "passport": "PASS10007",
+      "wheelChair": true,
+      "infant": false,
+      "checked_in": true,
+      "flight_id": "2",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "first_name": "BALA",
+      "last_name": "SWAMI",
+      "date_of_birth": "20-May-1984",
+      "gender": "Male",
+      "address": "chennai",
+      "mobile_no": 8768978654,
+      "seat_no": "A4",
+      "passport": "PASS10008",
+      "wheelChair": false,
+      "infant":true,
+      "checked_in": true,
+      "flight_id": "1",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "first_name": "VIRAT",
+      "last_name": "KOHLI",
+      "date_of_birth": "12-Jan-1990",
+      "gender": "Male",
+      "address": "DELHI",
+      "mobile_no": 6789876545,
+      "seat_no": "",
+      "passport": "",
+      "wheelChair": false,
+      "infant":true,
+      "checked_in": false,
+      "flight_id": "3",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "first_name": "MURARI",
+      "last_name": "LAL",
+      "date_of_birth": "3-Aug-1997",
+      "gender": "Male",
+      "address": "BOMNAHALLI",
+      "mobile_no": 9898767854,
+      "seat_no": "A1",
+      "passport": "PASS10009",
+      "wheelChair": true,
+      "infant": false,
+      "checked_in": true,
+      "flight_id": "1",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "first_name": "SUNNY",
+      "last_name": "KUMAR",
+      "date_of_birth": "20-May-1984",
+      "gender": "Male",
+      "address": "Pune",
+      "mobile_no": 8768978654,
+      "seat_no": "B1",
+      "passport": "PASS10010",
+      "wheelChair": true,
+      "infant": false,
+      "checked_in": true,
+      "flight_id": "2",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "first_name": "AAKASH",
+      "last_name": "NANDA",
+      "date_of_birth": "12-Jan-1990",
+      "gender": "Male",
+      "address": "Vadodra",
+      "mobile_no": 6789876545,
+      "seat_no": "B3",
+      "passport": "PASS10011",
+      "wheelChair": false,
+      "infant": false,
+      "checked_in": true,
+      "flight_id": "3",
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "first_name": "megha",
+      "last_name": "Prakash",
+      "mobile_no": "8961218983",
+      "address": "chennai",
+      "gender": "Female",
+      "infant":true,
+      "wheelChair": false,
+      "flight_id": "2",
+      "checked_in": false,
+      "seat_no": "",
+      "passport": "PASS10012",
+      "date_of_birth": "12-Jan-1990",
+      "id": 19,
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "first_name": "Ram",
+      "last_name": "Kumar",
+      "mobile_no": "9090090990",
+      "address": "Bidar",
+      "gender": "Male",
+      "infant": false,
+      "wheelChair": false,
+      "flight_id": "1",
+      "checked_in": true,
+      "seat_no": "B4",
+      "passport": "PASS10013",
+      "date_of_birth": "13-feb-1998",
+      "id": 20,
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "first_name": "Shyam",
+      "last_name": "Kumar",
+      "mobile_no": "9098238328",
+      "address": "Bangalore",
+      "gender": "Male",
+      "infant":true,
+      "wheelChair": false,
+      "flight_id": "1",
+      "checked_in": true,
+      "seat_no": "B7",
+      "passport": "PASS10014",
+      "date_of_birth": "27-oct-2000",
+      "id": 21,
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "first_name": "TONY",
+      "last_name": "STARK",
+      "mobile_no": "9384923849",
+      "address": "Bangalore",
+      "gender": "Male",
+      "infant": false,
+      "wheelChair": false,
+      "flight_id": "1",
+      "checked_in": true,
+      "seat_no": "C4",
+      "passport": "",
+      "date_of_birth": "12-Jan-1990",
+      "id": 22,
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "first_name": "James",
+      "last_name": "Bond",
+      "mobile_no": "007",
+      "address": "UK",
+      "gender": "Male",
+      "infant": false,
+      "wheelChair": true,
+      "flight_id": "1",
+      "checked_in": true,
+      "seat_no": "C7",
+      "passport": "",
+      "date_of_birth": "",
+      "id": 23,
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "first_name": "GOWDA",
+      "last_name": "Kumar",
+      "mobile_no": "",
+      "address": "Mandya",
+      "gender": "Male",
+      "infant":true,
+      "wheelChair": false,
+      "flight_id": "1",
+      "checked_in": false,
+      "seat_no": "",
+      "passport": "",
+      "date_of_birth": "",
+      "id": 24,
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "first_name": "RANJU",
+      "last_name": "KUMARI",
+      "mobile_no": "9898989898",
+      "address": "delhi",
+      "gender": "Female",
+      "infant": false,
+      "wheelChair": false,
+      "flight_id": "3",
+      "checked_in": false,
+      "seat_no": "",
+      "passport": "",
+      "date_of_birth": "",
+      "id": 25,
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "first_name": "Sanu",
+      "last_name": "Kumar",
+      "mobile_no": "8961221712",
+      "address": "lucknow",
+      "gender": "Male",
+      "infant":true,
+      "wheelChair": false,
+      "flight_id": "1",
+      "checked_in": true,
+      "seat_no": "B5",
+      "passport": "",
+      "date_of_birth": "06-jun-1976",
+      "id": 26,
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+      "ancillary": [
+          
+        {
+          "id":1,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":2,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":5,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    },
+    {
+      "first_name": "ANISH",
+      "last_name": "KUMAR",
+      "mobile_no": "7383838383",
+      "address": "Bangalore",
+      "gender": "Male",
+      "infant":true,
+      "wheelChair": true,
+      "flight_id": "1",
+      "checked_in": false,
+      "seat_no": "",
+      "passport": "",
+      "date_of_birth": "",
+      "id": 27,
+      "special_meals": [
+        {
+          "id":0,
+          "meal":"Veg Meal",
+          "selected":true
+        },
+        {
+          "id":1,
+          "meal":"Non-Veg Meal",
+          "selected":false
+        },{
+          "id":2,
+          "meal":"child food",
+          "selected":false
+        },
+        {
+          "id":3,
+          "meal":"alcohol",
+          "selected":false
+        }
+      ],
+        "ancillary": [
+        {
+          "id":0,
+          "service":"Paid Baggage Services",
+          "selected":true
+        },
+        {
+          "id":1,
+          "service":"Lounges",
+          "selected":false
+        },
+        {
+          "id":2,
+          "service":"Preferred Seat Purchase",
+          "selected":false
+        },
+        {
+          "id":3,
+          "service":"Pre-book our vitality and spa",
+          "selected":false
+        },
+        {
+          "id":4,
+          "service":"Car Rental",
+          "selected":true
+        }
+      ],
+      "shop":[
+        {
+          "id":0,
+          "shop":"shoe",
+          "selected":true
+        },
+        {
+          "id":1,
+          "shop":"bag",
+          "selected":true
+        }
+      ]
+    }
+  ]
+}

@@ -1,3 +1,38 @@
+# For app login and other refrence 
+
+// Google Login Reference  //
+https://blog.logrocket.com/guide-adding-google-login-react-app/
+
+//Testing setup reference 
+https://blog.bitsrc.io/how-to-test-react-components-using-jest-and-enzyme-fab851a43875
+
+//Google account for login 
+email :-amanauthtest@gmail.com
+pass:-testuser1
+//note:- only limited logins are allowed 
+
+
+// steps to run project 
+run code 
+1. npm install
+2.json-server --watch db.json
+3.npm start 
+
+//For Login I have created  seperate user 
+
+1.For  Admin 
+ email:-admin@gmail.com
+ pass:-1234
+
+ 2.Airline Staff -Check-In 
+  email:-staff@gmail.com
+ pass:-1234
+
+3.Airline Staff -In-Flight  
+  email:-inflight@gmail.com
+ pass:-1234
+
+===================================================================================
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +103,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
