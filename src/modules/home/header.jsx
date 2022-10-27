@@ -10,7 +10,8 @@ function Header(props){
   const navigate = useNavigate();
   const handleLogOut = () =>{
     navigate("/")
-    localStorage.clear();
+    // localStorage.clear();
+    localStorage.removeItem("login");
    
   }
   return(

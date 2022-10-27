@@ -2,6 +2,7 @@ import axios from "axios";
 import { LOGIN } from "./axios/configForAxios";
 import { FLIGHT } from "./axios/configForAxios";
 import {PASSENGER} from "./axios/configForAxios"
+import {SERVICES} from "./axios/configForAxios"
 export  const authenticateUser = async (username, password) => {
   return await axios
     .get(LOGIN, {
@@ -19,6 +20,11 @@ export  const  getFlightData = async () => {
 };
 
 export const getPassengerDetails = async () =>{
+  return await axios.get(PASSENGER).then(response =>response.data);
+}
+
+
+export const getServicesDetails = async () =>{
   return await axios
-  .get(PASSENGER).then(response =>response.data);
+  .get(SERVICES).then(response =>response.data);
 }

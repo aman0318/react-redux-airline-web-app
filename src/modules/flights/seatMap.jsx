@@ -22,7 +22,8 @@ function  SeatSelection (props){
       passengersSelectSeatMapping(user_details);
       
     }
-   
+  
+    // eslint-disable-next-line
   },[user_details,selected_user]);
  const passengersSelectSeatMapping =(data)=>{
   let colorCoddedData ={}
@@ -38,7 +39,7 @@ function  SeatSelection (props){
       "disabled":false
     }
     
-    if(data[key].seat_no && data[key].seat_no!=""){
+    if(data[key].seat_no && data[key].seat_no!==""){
       if(selected_user.id ===data[key].id){
         newmap.colorCode ="selected"
         newmap.disabled =false

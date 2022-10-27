@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 import Modal from '@mui/material/Modal';
 import TextField from '@mui/material/TextField';
 import { makeStyles } from '@mui/styles';
-import dayjs from 'dayjs';
+// import dayjs from 'dayjs';
 import React, { useState,useEffect} from 'react';
 import Form from 'react-bootstrap/Form';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -13,9 +13,6 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import { connect } from "react-redux";
 import {updateUserDetails,setSelectedUserDetails} from "../redux/actions";
-import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
-import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
-import { DesktopDatePicker } from '@mui/x-date-pickers/DesktopDatePicker';
 import { ToastContainer, toast } from 'react-toastify';
 import "react-datepicker/dist/react-datepicker.css";
  import 'react-toastify/dist/ReactToastify.css';
@@ -69,10 +66,12 @@ const genders = [
     "wheelChair":""
   });
   useEffect(()=>{
-    if(selected_user && selected_user.id != ""){
+    if(selected_user && selected_user.id !== ""){
       let newUser =selected_user
       setUser(newUser)
     }
+    
+    // eslint-disable-next-line
 },[props])
   const TextFieldCss ={
     'margin':'5px'
@@ -82,15 +81,6 @@ const genders = [
     let userCopy = {...User};
      userCopy['date_of_birth'] =date.format("DD/MM/YYYY");   
     setUser(userCopy);   
-  }
-  const handleDateChange =(date) =>{
-    let userCopy = {...User};
-    if(date !==null || date !=="" || !(isNaN(date.$D)  && !isNaN(date.$Y) && !isNaN(date.$M) )){
-    
-       userCopy['date_of_birth'] =date.format("DD/MM/YYYY");
-       setUser(userCopy);   
-    }
-    
   }
   const handleChange =(event) =>{
     let name  = event.target.name ;
@@ -149,52 +139,7 @@ const genders = [
           <Form className={classes.root}  noValidate autoComplete="off">
               <TextField id="first_name" name="first_name" classes ={TextFieldCss} size='normal' margin="dense" label="First Name" variant="standard" value={User.first_name} onChange={handleChange} />
               <TextField id="last_name" name="last_name" size='normal' margin="dense" label="Last Name" variant="standard" value={User.last_name} onChange={handleChange} />   
-              {/* <TextField id="date_of_birth" classes ={TextFieldCss} type="date"  InputLabelProps={{
-                      shrink: true,
-                    }} size='normal' format="dd-MM-yyyy" margin="dense" label="Date of Birth" variant="standard" value={User.date_of_birth} onChange={handleChange} /> */}
-                  <LocalizationProvider dateAdapter={AdapterDayjs}>
-                     <DesktopDatePicker
-                          label="Date Of Birth"
-                          minDate={dayjs('01-01-1997')}
-                          format="DD/MM/YYYY"
-                          value={User.date_of_birth?new Date(User.date_of_birth):null}
-                        onSelect={(newValue) => {
-                          handleDateSelect(newValue);
-                        }} 
-                        onChange={(newValue) => {
-                          handleDateChange(newValue);
-                        }} 
-                          renderInput={(params) => <TextField {...params} />}
-                        />
-                     </LocalizationProvider> 
-                     {/* <div>
-                     <label>Date of Birth</label>
-                      <DatePicker
-                        className='input'
-                        selected={User.date_of_birth?new Date(User.date_of_birth):null}
-                        onSelect={(newValue) => {
-                          handleDateSelect(newValue);
-                        }} 
-                        onChange={(newValue) => {
-                          handleDateChange(newValue);
-                        }} 
-                      />
-                     </div> */}
-                    
-                    {/* <MuiPickersUtilsProvider utils={DateFnsUtils}>
-                                    <KeyboardDatePicker
-                                              margin="normal"
-                                              id="date_of_birth"
-                                              name="date_of_birth"
-                                              label="Date of Birth"
-                                              format="MM-dd-yyyy"
-                                              value={User.date_of_birth}
-                                              onChange={handleDateChange}
-                                              KeyboardButtonProps={{
-                                                'aria-label': 'change date',
-                                              }}
-                                            />
-                            </MuiPickersUtilsProvider> */}
+            
               <TextField id="passport" name="passport" size='normal' margin="dense" label="Passport" variant="standard" value={User.passport} onChange={handleChange} />   
               <TextField id="mobile_no" name="mobile_no" type="number"
                     InputLabelProps={{

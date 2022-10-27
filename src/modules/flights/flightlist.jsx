@@ -8,34 +8,43 @@ import Col from 'react-bootstrap/Col';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { Link } from "react-router-dom";
-import {getFlightData} from '../../utils';
+import {getFlightData,getServicesDetails} from '../../utils';
 import React, { useState,useEffect } from 'react';
 import { connect } from 'react-redux';
-import {setFlight} from "../../redux/actions"
+import {setFlight,setFlightsServices} from "../../redux/actions";
+import {loadState} from "../../redux/store"
 function Flightlist (props){
 
   const [flights, setFlightList] = useState([]);
-  const {setFlight} = props
+  const {setFlight,setFlightsServices} = props
   const theme = createTheme({
     palette: {
       viewMore: {
         main: '#40514E',
-      },
+          },
     },
   });
   useEffect(() => {
+  let preStore =loadState();
   let flightdata =  getFlightData();
-    
-  flightdata.then(
-        (result) => {
-     
-          setFlightList(result);
-          setFlight(result);
-        },
-        (error) => {
-     
-        }
-      )
+      flightdata.then(
+            (result) => {
+        
+              setFlightList(result);
+              setFlight(result);
+            },
+            (error) => {
+        
+            }
+      );
+    if(!preStore || Object.keys(preStore.flight_Services).length ===0){
+          let flightServices =getServicesDetails();
+          
+          flightServices.then((result)=>{
+            setFlightsServices(false,result)
+          })
+    }   
+   // eslint-disable-next-line
   },[])
 return (
   <>
@@ -45,7 +54,7 @@ return (
           <Card key={item.id} className="m-t-b-20">
               <CardContent className='pb-0 '>
                 <Row className='card-details'>
-                  <Col xs={2} md={1} className="icon-flight"><img src={"/flight_images/"+item.logo} style={{maxWidth:'80%'}}></img>
+                  <Col xs={2} md={1} className="icon-flight"><img src={"/flight_images/"+item.logo} style={{maxWidth:'80%'}} alt={item.logo}></img>
                   <div className='text'>
                    {item.airline}
                     <div>{item.flightNo}</div>
@@ -107,7 +116,8 @@ const mapStateToProps =(state) =>{
 }
 const mapDispatchToProps =(dispatch) =>{
   return({
-    setFlight:(data)=>dispatch(setFlight(data))
+    setFlight:(data)=>dispatch(setFlight(data)),
+    setFlightsServices:(id,data) =>dispatch(setFlightsServices(id,data))
   })
 }
 export default connect(

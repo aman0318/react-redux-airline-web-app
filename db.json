@@ -354,67 +354,68 @@
       "seat_no": "C1",
       "passport": "PASS10000",
       "wheelChair": true,
-      "infant":true,
+      "infant": true,
       "checked_in": true,
       "flight_id": "1",
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":true
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": true
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
       "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":true
+          "id": 1,
+          "service": "Lounges",
+          "selected": true
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -429,67 +430,68 @@
       "seat_no": "D2",
       "passport": "PASS10001",
       "wheelChair": false,
-      "infant":true,
+      "infant": true,
       "checked_in": true,
       "flight_id": "1",
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -509,62 +511,63 @@
       "flight_id": "3",
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -579,67 +582,68 @@
       "seat_no": "B6",
       "passport": "PASS10003",
       "wheelChair": false,
-      "infant":true,
+      "infant": true,
       "checked_in": true,
       "flight_id": "1",
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -654,67 +658,68 @@
       "seat_no": "",
       "passport": "",
       "wheelChair": false,
-      "infant":true,
+      "infant": true,
       "checked_in": false,
       "flight_id": "2",
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -734,62 +739,63 @@
       "flight_id": "3",
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -809,62 +815,63 @@
       "flight_id": "1",
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -884,62 +891,63 @@
       "flight_id": "2",
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -954,67 +962,68 @@
       "seat_no": "",
       "passport": "",
       "wheelChair": false,
-      "infant":true,
+      "infant": true,
       "checked_in": false,
       "flight_id": "3",
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -1029,67 +1038,68 @@
       "seat_no": "A6",
       "passport": "PASS10005",
       "wheelChair": true,
-      "infant":true,
+      "infant": true,
       "checked_in": true,
-      "flight_id": "1",
+      "flight_id": "4",
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -1109,62 +1119,63 @@
       "flight_id": "2",
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -1179,67 +1190,68 @@
       "seat_no": "C2",
       "passport": "PASS10006",
       "wheelChair": false,
-      "infant":true,
+      "infant": true,
       "checked_in": true,
       "flight_id": "1",
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -1259,62 +1271,63 @@
       "flight_id": "2",
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -1329,67 +1342,68 @@
       "seat_no": "A4",
       "passport": "PASS10008",
       "wheelChair": false,
-      "infant":true,
+      "infant": true,
       "checked_in": true,
       "flight_id": "1",
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -1404,67 +1418,68 @@
       "seat_no": "",
       "passport": "",
       "wheelChair": false,
-      "infant":true,
+      "infant": true,
       "checked_in": false,
       "flight_id": "3",
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -1484,62 +1499,63 @@
       "flight_id": "1",
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -1559,62 +1575,63 @@
       "flight_id": "2",
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -1634,62 +1651,63 @@
       "flight_id": "3",
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -1699,7 +1717,7 @@
       "mobile_no": "8961218983",
       "address": "chennai",
       "gender": "Female",
-      "infant":true,
+      "infant": true,
       "wheelChair": false,
       "flight_id": "2",
       "checked_in": false,
@@ -1709,62 +1727,63 @@
       "id": 19,
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -1784,62 +1803,63 @@
       "id": 20,
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -1849,9 +1869,9 @@
       "mobile_no": "9098238328",
       "address": "Bangalore",
       "gender": "Male",
-      "infant":true,
+      "infant": true,
       "wheelChair": false,
-      "flight_id": "1",
+      "flight_id": "4",
       "checked_in": true,
       "seat_no": "B7",
       "passport": "PASS10014",
@@ -1859,62 +1879,63 @@
       "id": 21,
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -1926,7 +1947,7 @@
       "gender": "Male",
       "infant": false,
       "wheelChair": false,
-      "flight_id": "1",
+      "flight_id": "4",
       "checked_in": true,
       "seat_no": "C4",
       "passport": "",
@@ -1934,62 +1955,63 @@
       "id": 22,
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -2001,7 +2023,7 @@
       "gender": "Male",
       "infant": false,
       "wheelChair": true,
-      "flight_id": "1",
+      "flight_id": "4",
       "checked_in": true,
       "seat_no": "C7",
       "passport": "",
@@ -2009,62 +2031,63 @@
       "id": 23,
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -2074,9 +2097,9 @@
       "mobile_no": "",
       "address": "Mandya",
       "gender": "Male",
-      "infant":true,
+      "infant": true,
       "wheelChair": false,
-      "flight_id": "1",
+      "flight_id": "4",
       "checked_in": false,
       "seat_no": "",
       "passport": "",
@@ -2084,62 +2107,63 @@
       "id": 24,
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -2159,62 +2183,63 @@
       "id": 25,
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -2224,9 +2249,9 @@
       "mobile_no": "8961221712",
       "address": "lucknow",
       "gender": "Male",
-      "infant":true,
+      "infant": true,
       "wheelChair": false,
-      "flight_id": "1",
+      "flight_id": "4",
       "checked_in": true,
       "seat_no": "B5",
       "passport": "",
@@ -2234,63 +2259,63 @@
       "id": 26,
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
       "ancillary": [
-          
         {
-          "id":1,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 1,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":2,
-          "service":"Lounges",
-          "selected":false
+          "id": 2,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 3,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 4,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":5,
-          "service":"Car Rental",
-          "selected":true
+          "id": 5,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     },
@@ -2300,7 +2325,7 @@
       "mobile_no": "7383838383",
       "address": "Bangalore",
       "gender": "Male",
-      "infant":true,
+      "infant": true,
       "wheelChair": true,
       "flight_id": "1",
       "checked_in": false,
@@ -2310,64 +2335,363 @@
       "id": 27,
       "special_meals": [
         {
-          "id":0,
-          "meal":"Veg Meal",
-          "selected":true
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true
         },
         {
-          "id":1,
-          "meal":"Non-Veg Meal",
-          "selected":false
-        },{
-          "id":2,
-          "meal":"child food",
-          "selected":false
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": false
         },
         {
-          "id":3,
-          "meal":"alcohol",
-          "selected":false
+          "id": 2,
+          "meal": "child food",
+          "selected": false
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": false
         }
       ],
-        "ancillary": [
+      "ancillary": [
         {
-          "id":0,
-          "service":"Paid Baggage Services",
-          "selected":true
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true
         },
         {
-          "id":1,
-          "service":"Lounges",
-          "selected":false
+          "id": 1,
+          "service": "Lounges",
+          "selected": false
         },
         {
-          "id":2,
-          "service":"Preferred Seat Purchase",
-          "selected":false
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": false
         },
         {
-          "id":3,
-          "service":"Pre-book our vitality and spa",
-          "selected":false
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": false
         },
         {
-          "id":4,
-          "service":"Car Rental",
-          "selected":true
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true
         }
       ],
-      "shop":[
+      "shop": [
         {
-          "id":0,
-          "shop":"shoe",
-          "selected":true
+          "id": 0,
+          "shop": "shoe",
+          "selected": true
         },
         {
-          "id":1,
-          "shop":"bag",
-          "selected":true
+          "id": 1,
+          "shop": "bag",
+          "selected": true
         }
       ]
     }
-  ]
+  ],
+  "flight_Services":{
+    "1": {
+      "special_meals": [
+        {
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 2,
+          "meal": "child food",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": true,
+          "selectedby": {}
+        }
+      ],
+      "ancillary": [
+        {
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 1,
+          "service": "Lounges",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true,
+          "selectedby": {}
+        }
+      ],
+      "shop": [
+        {
+          "id": 0,
+          "shop": "shoe",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 1,
+          "shop": "bag",
+          "selected": true,
+          "selectedby": {}
+        }
+      ]
+    },
+    "2": {
+      "special_meals": [
+        {
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 2,
+          "meal": "child food",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": true,
+          "selectedby": {}
+        }
+      ],
+      "ancillary": [
+        {
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 1,
+          "service": "Lounges",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true,
+          "selectedby": {}
+        }
+      ],
+      "shop": [
+        {
+          "id": 0,
+          "shop": "shoe",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 1,
+          "shop": "bag",
+          "selected": true,
+          "selectedby": {}
+        }
+      ]
+    },
+    "3": {
+      "special_meals": [
+        {
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 2,
+          "meal": "child food",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": true,
+          "selectedby": {}
+        }
+      ],
+      "ancillary": [
+        {
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 1,
+          "service": "Lounges",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true,
+          "selectedby": {}
+        }
+      ],
+      "shop": [
+        {
+          "id": 0,
+          "shop": "shoe",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 1,
+          "shop": "bag",
+          "selected": true,
+          "selectedby": {}
+        }
+      ]
+    },
+    "4": {
+      "special_meals": [
+        {
+          "id": 0,
+          "meal": "Veg Meal",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 1,
+          "meal": "Non-Veg Meal",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 2,
+          "meal": "child food",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 3,
+          "meal": "alcohol",
+          "selected": true,
+          "selectedby": {}
+        }
+      ],
+      "ancillary": [
+        {
+          "id": 0,
+          "service": "Paid Baggage Services",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 1,
+          "service": "Lounges",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 2,
+          "service": "Preferred Seat Purchase",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 3,
+          "service": "Pre-book our vitality and spa",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 4,
+          "service": "Car Rental",
+          "selected": true,
+          "selectedby": {}
+        }
+      ],
+      "shop": [
+        {
+          "id": 0,
+          "shop": "shoe",
+          "selected": true,
+          "selectedby": {}
+        },
+        {
+          "id": 1,
+          "shop": "bag",
+          "selected": true,
+          "selectedby": {}
+        }
+      ]
+    }
+  }
 }

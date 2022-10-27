@@ -12,19 +12,21 @@ import Checkbox from '@mui/material/Checkbox';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl'
-import {setSelectedUserDetails,updateUserDetails} from "../../redux/actions";
+import {setFlightsServices} from "../../redux/actions";
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
+
  function FlightDetailsCMP (props){
   let tabMapping  ={
     "1":"special_meals",
     "2":"shop",
     "3":"ancillary"
   }
-  const {flight_list,selected_user,setSelectedUserDetails,updateUserDetails} =props;
+  const {flight_list,selected_user,setFlightsServices,flight_Services} =props;
   const [flightdetails,setFlightDetails] = useState({});
   const [Tabvalue, setTabValue] = React.useState('1');
   const [Selected_User_Details ,setSelectedUsers] =useState({});
+  const [flightServices,setServices] =useState({})
   const loginDetails = JSON.parse(localStorage.getItem("login"));
   const[newValue,setNewValue] =useState({
     "text":""
@@ -32,6 +34,10 @@ import TextField from '@mui/material/TextField';
   const handleTabChange = (event,newValue) => {
     setTabValue(newValue);
   };
+  const valueChecked =(data) =>{
+  let id =  data.selectedby[selected_user.id]
+    return id?true:false ;
+  }
   const handelNewValue =(event) =>{
     
     let val  = newValue
@@ -45,49 +51,70 @@ import TextField from '@mui/material/TextField';
       "3":"service"
     }
     const  loginRole =loginDetails.role
-    let check =loginRole ==="admin"?flightdetails:selected_user;
-   
+    // let check =loginRole ==="admin"?flightdetails:selected_user;
+    let check =flightdetails;
     let objCpy = {
       [mapping[Tabvalue]]:newValue.text,
       "selected":loginRole ==="admin"?true:false,
-      "id":check[tabMapping[Tabvalue]].length
+      "id":check[tabMapping[Tabvalue]].length,
+      "selectedby":{}
   }
-  check[tabMapping[Tabvalue]].push(objCpy);
+  check[tabMapping[Tabvalue]].push({...objCpy});
+  let servicesCopy =flight_Services[id];
+  servicesCopy[tabMapping[Tabvalue]].push({...objCpy});
+  setFlightsServices(id,servicesCopy)
+  // setServices(servicesCopy);
   setNewValue({...newValue,text:""});
   if(loginRole ==="admin"){
     setFlightDetails({...check});
     return ;
   }
-      setSelectedUsers({...check})
-    setSelectedUserDetails({...check});
+    //   setSelectedUsers({...check})
+    // setSelectedUserDetails({...check});
     
    
   }
   const handleCheckBoxChange  =(event) =>{
    const  loginRole =loginDetails.role
-    let check =loginRole ==="admin"?flightdetails:selected_user;
+    // let check =loginRole ==="admin"?flightdetails:selected_user;
+    let check =flightdetails;
+    let servicesCopy =flight_Services[id];
+    let selectedIds = servicesCopy[tabMapping[Tabvalue]][event.target.value].selectedby
     if(loginRole ==="admin"){
       check[tabMapping[Tabvalue]].splice(event.target.value, 1);
       setFlightDetails({...check});
+      servicesCopy[tabMapping[Tabvalue]].splice(event.target.value, 1);
+      setFlightsServices(id,servicesCopy)
+      return ;
+    }
+    else if(!event.target.checked && selectedIds[selected_user.id]){
+     delete servicesCopy[tabMapping[Tabvalue]][event.target.value].selectedby[selected_user.id];
+      setFlightsServices(id,servicesCopy);
       return ;
     }
     check[tabMapping[Tabvalue]][event.target.value].selected =event.target.checked;
-    setSelectedUsers({...check})
-    setSelectedUserDetails({...check});
+    servicesCopy[tabMapping[Tabvalue]][event.target.value].selectedby[selected_user.id] =event.target.checked;
+    setFlightsServices(id,servicesCopy)
+  
+ 
+    // setServices(servicesCopy);
+    // setSelectedUsers({...check})
+    // setSelectedUserDetails({...check});
   }
   let {id} = useParams();
   useEffect(()=>{
+    setServices(flight_Services[id]);
     setSelectedUsers(selected_user);
     let Flight = flight_list.filter((item)=>{
       return item.id ===id
      })
-     setFlightDetails(Flight[0]);
-     
-  },[selected_user])
+     setFlightDetails(Flight[0]); 
+   // eslint-disable-next-line
+  },[selected_user,flight_Services]) // eslint-disable-line react-hooks/exhaustive-deps
   return(
     <>
      <div className='container'>
-      { flightdetails && loginDetails.role !=="staff-in-flight"?   
+      { flightdetails && loginDetails.role !=="staff-in-flight" && loginDetails.role !=="staff"?   
        <div className='details_container'>
            <Row>
             <Col>
@@ -176,22 +203,24 @@ import TextField from '@mui/material/TextField';
         ?
         <div>
             <TabPanel value="1">
-            <div className='smallMSG'>Please Uncheck to delete *</div>
+            <div className='smallMSG'>Please Uncheck to delete *
+            (This is only for flights if you want to select services for  passengers please login with other account )
+            </div>
             
             <FormControl component="fieldset">
               <FormGroup aria-label="position" row>
                
-                {(flightdetails.special_meals)?
+                {(flightServices.special_meals)?
                 <div>
                    <TextField id="standard-basic" size="small" variant="standard" margin="normal" label="Enter new value"  value={newValue.text}  onChange={handelNewValue}/>
                    <Button  variant="outlined" onClick={handelAddNewValue}  style={{color:'#71C9CE',borderColor:'#71C9CE',marginTop:"15px",marginLeft:"20px"}}>
                         Add
                     </Button>
-                  { flightdetails.special_meals.map(item =>(
+                  { flightServices.special_meals.map((item,index)=>(
                       <FormControlLabel
                       key={item.id}
                       value={item.id}
-                      control={<Checkbox value={item.id} checked={item.selected} onChange={handleCheckBoxChange} />}
+                      control={<Checkbox value={index} checked={item.selected} onChange={handleCheckBoxChange} />}
                       label={item.meal}
                       labelPlacement="end"
                       className='mr-10'
@@ -209,21 +238,23 @@ import TextField from '@mui/material/TextField';
             </FormControl>
             </TabPanel>
             <TabPanel value="2">
-            <div className='smallMSG'>Please Uncheck to delete *</div>
+            <div className='smallMSG'>Please Uncheck to delete *
+            (This is only for flights if you want to select services for  passengers please login with other account )
+            </div>
             <FormControl component="fieldset">
               <FormGroup aria-label="position" row>
                
-                {(flightdetails.shop)?
+                {(flightServices.shop)?
                 <div>
                    <TextField id="standard-basic" size="small" variant="standard" margin="normal" label="Enter new value"  value={newValue.text}  onChange={handelNewValue}/>
                    <Button  variant="outlined" onClick={handelAddNewValue}  style={{color:'#71C9CE',borderColor:'#71C9CE',marginTop:"15px",marginLeft:"20px"}}>
                         Add
                     </Button>
-                  { flightdetails.shop.map(item =>(
+                  { flightServices.shop.map((item,index) =>(
                       <FormControlLabel
                       key={item.id}
                       value={item.id}
-                      control={<Checkbox value={item.id} checked={item.selected} onChange={handleCheckBoxChange} />}
+                      control={<Checkbox value={index} checked={item.selected} onChange={handleCheckBoxChange} />}
                       label={item.shop}
                       labelPlacement="end"
                       className='mr-10'
@@ -242,18 +273,20 @@ import TextField from '@mui/material/TextField';
 
             </TabPanel>
             <TabPanel value="3">
-            <div className='smallMSG'>Please Uncheck to delete *</div>
+            <div className='smallMSG'>Please Uncheck to delete *
+            (This is only for flights if you want to select services for  passengers please login with other account )
+            </div>
             <FormControl component="fieldset">
                   <FormGroup aria-label="position" row>
                   <TextField id="standard-basic" size="small" variant="standard" margin="normal" label="Enter new value"  value={newValue.text}  onChange={handelNewValue}/>
                    <Button  variant="outlined" onClick={handelAddNewValue}  style={{color:'#71C9CE',borderColor:'#71C9CE',marginTop:"15px",marginLeft:"20px"}}>
                         Add
                     </Button>
-                  {(flightdetails.ancillary)?flightdetails.ancillary.map(item =>(
+                  {(flightServices.ancillary)?flightServices.ancillary.map((item,index) =>(
                       <FormControlLabel
                       key={item.id}
                       value={item.id}
-                      control={<Checkbox value={item.id} checked={item.selected} onChange={handleCheckBoxChange} />}
+                      control={<Checkbox value={index} checked={item.selected} onChange={handleCheckBoxChange} />}
                       label={item.service}
                       labelPlacement="end"
                       className='mr-10'
@@ -272,7 +305,7 @@ import TextField from '@mui/material/TextField';
             <div className='smallMSG'>Please Uncheck to remove service request  *</div>
                 <FormControl component="fieldset">
                   <FormGroup aria-label="position" row>
-                    {(Selected_User_Details.special_meals)?
+                    {(flightServices.special_meals)?
                     <div>
                       <div>
                         <TextField id="standard-basic" size="small" variant="standard" margin="normal" label="Enter new value"  value={newValue.text}  onChange={handelNewValue}/>
@@ -281,11 +314,11 @@ import TextField from '@mui/material/TextField';
                           </Button>
                       </div>
                     
-                      { Selected_User_Details.special_meals.map(item =>(
+                      { flightServices.special_meals.map((item,index) =>(
                           <FormControlLabel
                           key={item.id}
-                          value={item.id}
-                          control={<Checkbox value={item.id} checked={item.selected} onChange={handleCheckBoxChange} />}
+                          value={index}
+                          control={<Checkbox value={item.id} checked={valueChecked(item)} onChange={handleCheckBoxChange} />}
                           label={item.meal}
                           labelPlacement="end"
                           className='mr-10'
@@ -306,7 +339,7 @@ import TextField from '@mui/material/TextField';
             <div className='smallMSG'>Please Uncheck to remove service request  *</div>
             <FormControl component="fieldset">
                   <FormGroup aria-label="position" row>
-                    {(Selected_User_Details.shop)?
+                    {(flightServices.shop)?
                     <div>
                       <div>
                         <TextField id="standard-basic" size="small" variant="standard" margin="normal" label="Enter new value"  value={newValue.text}  onChange={handelNewValue}/>
@@ -315,11 +348,11 @@ import TextField from '@mui/material/TextField';
                           </Button>
                       </div>
                     
-                      { Selected_User_Details.shop.map(item =>(
+                      { flightServices.shop.map((item,index) =>(
                           <FormControlLabel
                           key={item.id}
-                          value={item.id}
-                          control={<Checkbox value={item.id} checked={item.selected} onChange={handleCheckBoxChange} />}
+                          value={index}
+                          control={<Checkbox value={index} checked={valueChecked(item)} onChange={handleCheckBoxChange} />}
                           label={item.shop}
                           labelPlacement="end"
                           className='mr-10'
@@ -348,11 +381,11 @@ import TextField from '@mui/material/TextField';
             <FormControl component="fieldset">
                   <FormGroup aria-label="position" row>
                   
-                  {(Selected_User_Details.ancillary)?Selected_User_Details.ancillary.map(item =>(
+                  {(flightServices.ancillary)?flightServices.ancillary.map((item,index) =>(
                       <FormControlLabel
                       key={item.id}
-                      value={item.id}
-                      control={<Checkbox value={item.id} checked={item.selected} onChange={handleCheckBoxChange} />}
+                      value={index}
+                      control={<Checkbox value={index} checked={valueChecked(item)} onChange={handleCheckBoxChange} />}
                       label={item.service}
                       labelPlacement="end"
                       className='mr-10'
@@ -379,13 +412,15 @@ import TextField from '@mui/material/TextField';
   return({
     
     flight_list:state.flight_list,
-    selected_user:state.selected_user
+    selected_user:state.selected_user,
+    flight_Services:state.flight_Services
   })
 }
 const mapDispatchToProps =(dispatch) =>{
   return({
-    setSelectedUserDetails:(data) =>dispatch(setSelectedUserDetails(data)),
-    updateUserDetails:(data) =>dispatch(updateUserDetails(data))
+    // setSelectedUserDetails:(data) =>dispatch(setSelectedUserDetails(data)),
+    // setUser: (data) => dispatch(setUser(data))
+    setFlightsServices:(id,data) =>dispatch(setFlightsServices(id,data))
   })
 }
  export default connect(

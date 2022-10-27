@@ -2,7 +2,9 @@ const initialState = {
   user_details:[],
   selected_user:{},
   filtered_data:[],
-  flight_list:[]
+  flight_list:[],
+  flight_Services:{
+  }
 };
 
 function addReducer(state = initialState, action) {
@@ -30,6 +32,19 @@ function addReducer(state = initialState, action) {
              newState.push(action.payload.data);
               
           return{...state ,user_details:newState};
+         case "set_flight_services":
+          
+          let services ={...state.flight_Services}
+          if(action.payload.id){
+            
+            services[action.payload.id] =action.payload.data
+          }
+          else{
+            
+            services ={...action.payload.data}
+          }
+      
+          return {...state,flight_Services:services} 
          
     default:
       return state;

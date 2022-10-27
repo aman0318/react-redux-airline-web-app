@@ -1,13 +1,23 @@
-import {getUser,getFlights,updateUser,setSelectedUser,addNewUser,filterPassengers} from './actionType';
+import {getUser,getFlights,updateUser,setSelectedUser,addNewUser,filterPassengers,flight_Services} from './actionType';
 
 
 export function setUser(data) {
-  ;
   return function(dispatch) {
     dispatch({
       type: getUser,
       payload:{
         data
+      }
+    }); 
+  };
+};
+export function setFlightsServices(id,data) {
+  return function(dispatch) {
+    dispatch({
+      type: flight_Services,
+      payload:{
+        id,
+       data
       }
     }); 
   };

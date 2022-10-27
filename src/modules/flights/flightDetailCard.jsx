@@ -1,14 +1,11 @@
 
-import React, {useEffect} from "react"
+import React from "react"
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import WestIcon from '@mui/icons-material/West';
 import { useNavigate } from "react-router-dom";
  const   FlightDetailsCard  = (props) =>{
   let navigate = useNavigate();
-  useEffect (()=>{
-
-  },[props])
   const {flightdetails} =props;
   const redirectTOFlightList  =() =>{
     navigate('/flights');

@@ -11,39 +11,57 @@ import PassengerFilters from "./passengers_filters";
 import FlightDetails from '../modules/flights/flightdetails';
 import FlightDetailsCard from '../modules/flights/flightDetailCard';
 import SeatSelection from '../modules/flights/seatMap';
+import {loadState} from "../redux/store"
 
 function PasssengerMain (props){
   const loginDetails = JSON.parse(localStorage.getItem("login"));
   const {setUser,filterPassengersDetails,setSelectedUserDetails,setFlight} = props;
   const [flightdetails,setFlightDetails] =useState({});
   let {id} = useParams();
-  useEffect(() => {
-    
+  useEffect(() => {  
+     let preStore =loadState();
+    let flightdata =  getFlightData();
+    flightdata.then(
+          (result) => {
+            if(!preStore || preStore["flight_list"].lenght ===0){
+              setFlight(result)
+            }
+            // setFlight(result); 
+            let Flight = result.filter((item)=>{
+              return item.id ===id
+             })
+             setFlightDetails(Flight[0]);        
+          },
+          (error) => {
+       
+          }
+        )
     let _PassengersDetails =  getPassengerDetails();
     _PassengersDetails.then(
-          (result) => {
-          filterPassengersDetails(result); 
-          setUser(result);
-          setSelectedUserDetails(result[0])
+          (response) => {
+            let noStoreAvailble = false ;
+          
+            if(!preStore || preStore["user_details"].length ===0 || preStore["user_details"] ===undefined){
+              filterPassengersDetails(response); 
+              setUser(response);
+              noStoreAvailble = true ;
+            
+            }
+            let dataToGetPasseneger =noStoreAvailble?response:preStore["user_details"] ;
+            let FlightPassengers = dataToGetPasseneger.filter((item)=>{
+              return item.flight_id ===id
+             })
+             debugger ;
+             setSelectedUserDetails(FlightPassengers[0])
+      
           },
           (error) => {
           
           }
         )
 
-        let flightdata =  getFlightData();
-        flightdata.then(
-              (result) => {
-                setFlight(result); 
-                let Flight = result.filter((item)=>{
-                  return item.id ===id
-                 })
-                 setFlightDetails(Flight[0]);        
-              },
-              (error) => {
-           
-              }
-            )
+   
+   // eslint-disable-next-line
     },[])
   return (
    
@@ -83,7 +101,7 @@ function PasssengerMain (props){
             </Row>
             <Row>
               <Col >
-             { (loginDetails.role ==="staff-in-flight")
+             { (loginDetails.role ==="staff-in-flight" || loginDetails.role ==="staff")
                    ?
                     <div>
                     

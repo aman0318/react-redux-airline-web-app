@@ -5,11 +5,11 @@ import FormControl from '@mui/material/FormControl';
 import {useState,useEffect} from 'react';
 import { connect } from 'react-redux';
 import React  from 'react';
-import {filterPassengersDetails} from "../redux/actions"
+import {filterPassengersDetails,setSelectedUserDetails} from "../redux/actions"
 function PassengerFilters (props){
   const [applieadFilters, setFilters] = useState({});
   const [filterBasedOn,setFilterBasedOn] = useState({});
-  const {user_details,filterPassengersDetails} = props;
+  const {user_details,filterPassengersDetails,setSelectedUserDetails} = props;
   const loginDetails = JSON.parse(localStorage.getItem("login"));
   const handleChange = (event) => {
       let check = applieadFilters;
@@ -30,9 +30,10 @@ function PassengerFilters (props){
   };
   const handleFilterChange =(filter) =>{
     let dataToBeFilter =user_details;
+    var newData =[];
     for(let key in filterBasedOn){
       if(loginDetails.role ==="admin"){
-        var newData = dataToBeFilter.filter(function(item)
+         newData = dataToBeFilter.filter(function(item)
           {
             
             return item[key] ==="" || item[key].length ===0;
@@ -40,7 +41,7 @@ function PassengerFilters (props){
           }) 
       }
       else{
-        var newData = dataToBeFilter.filter(function(item)
+         newData = dataToBeFilter.filter(function(item)
         {
           
           return filterBasedOn[key] ===true? item[key]===true:item;
@@ -51,12 +52,17 @@ function PassengerFilters (props){
       
       dataToBeFilter = newData;
     }
-    
+      ;
+     if(dataToBeFilter.length ===0){
+      setSelectedUserDetails({});
+     }
     filterPassengersDetails(dataToBeFilter);
   }
   useEffect(() => {
     
     handleFilterChange();
+    
+    // eslint-disable-next-line
     }, [props])
   return(
     <>
@@ -118,7 +124,8 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => {
   return({
-    filterPassengersDetails:(data) =>dispatch(filterPassengersDetails(data))
+    filterPassengersDetails:(data) =>dispatch(filterPassengersDetails(data)),
+    setSelectedUserDetails:(data) =>dispatch(setSelectedUserDetails(data))
 });
 }
 export default connect(

@@ -1,4 +1,4 @@
-import React,{useEffect} from "react"
+import React  from "react"
 import {connect} from "react-redux";
 import {updateUserDetails,setSelectedUserDetails} from "../../redux/actions";
 function SingleSeat (props){
@@ -12,14 +12,11 @@ function SingleSeat (props){
     "wheelChair":"red"
 
   }
-  useEffect(()=>{
-    if(selectedFor.seatNo ){
-      return ;
-    }
-  },[selected_user]);
   const handelButtonClick =(event)=>{
+     ;
     let userCopy = {...selected_user};
-    if(selected_user.seat_no && selected_user.seat_no !==""){
+    if(selected_user.seat_no && selected_user.seat_no !=="" && selected_user.seat_no === selectedFor.seatNo){
+      userCopy.checked_in = false ;
       userCopy.seat_no =""
       updateUserDetails(userCopy);
       setSelectedUserDetails(userCopy);
@@ -27,6 +24,7 @@ function SingleSeat (props){
     }
     
     userCopy.seat_no =selectedFor.seatNo
+    userCopy.checked_in = true ;
 
     updateUserDetails(userCopy);
     setSelectedUserDetails(userCopy);

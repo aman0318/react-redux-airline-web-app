@@ -16,6 +16,7 @@ import {addNewPassenger} from "../redux/actions";
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DesktopDatePicker } from '@mui/x-date-pickers/DesktopDatePicker';
+import {useParams } from 'react-router-dom';
 const useStyles = makeStyles({
   root: {
     '& .MuiTextField-root': {
@@ -48,7 +49,71 @@ const genders = [
     label: 'Other',
   }
 ];
+
  function CreatePassengers(props) {
+  let {id} = useParams();
+  const servicesCopyForUser ={
+    "special_meals": [
+      {
+        "id":0,
+        "meal":"Veg Meal",
+        "selected":false
+      },
+      {
+        "id":1,
+        "meal":"Non-Veg Meal",
+        "selected":false
+      },{
+        "id":2,
+        "meal":"child food",
+        "selected":false
+      },
+      {
+        "id":3,
+        "meal":"alcohol",
+        "selected":false
+      }
+    ],
+    "ancillary": [
+      {
+        "id":0,
+        "service":"Paid Baggage Services",
+        "selected":false
+      },
+      {
+        "id":1,
+        "service":"Lounges",
+        "selected":false
+      },
+      {
+        "id":2,
+        "service":"Preferred Seat Purchase",
+        "selected":false
+      },
+      {
+        "id":3,
+        "service":"Pre-book our vitality and spa",
+        "selected":false
+      },
+      {
+        "id":4,
+        "service":"Car Rental",
+        "selected":false
+      }
+    ],
+    "shop":[
+      {
+        "id":0,
+        "shop":"shoe",
+        "selected":false
+      },
+      {
+        "id":1,
+        "shop":"bag",
+        "selected":false
+      }
+    ]
+  }
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
   const {addNewPassenger} = props;
@@ -58,12 +123,13 @@ const genders = [
     'first_name':"",
     'last_name':"",
     'mobile_no':"",
-    'date_of_birth':dayjs().format("DD-MM-YYYY"),
+    'date_of_birth':"",
     'passport':"",
     'address':"",
     'gender':"",
     "infant":"",
-    "wheelChair":""
+    "wheelChair":"",
+    "flight_id":id
   });
   const TextFieldCss ={
     'margin':'5px'
@@ -89,7 +155,14 @@ const genders = [
   }
   const handelSubmit =(event) =>{
     let userCopy = {...User};
+    if(userCopy.date_of_birth === dayjs().format("DD-MM-YYYY")){
+      userCopy.date_of_birth =""
+    }
+
     userCopy["id"] = Math.floor(Math.random() * 10)+userCopy.last_name;
+    userCopy["ancillary"] =servicesCopyForUser.ancillary;
+    userCopy["special_meals"] =servicesCopyForUser.special_meals
+    userCopy["shop"] =servicesCopyForUser.shop;
     setUser(userCopy)
     event.preventDefault();
     addNewPassenger(userCopy);
@@ -130,7 +203,6 @@ const genders = [
                      <DesktopDatePicker
                           label="Date Of Birth"
                           value={User.date_of_birth}
-                          minDate={dayjs('01-01-1997')}
                           format="DD-MM-YYYY"
                           onChange={(newValue) => {
                             handleDateChange(newValue);

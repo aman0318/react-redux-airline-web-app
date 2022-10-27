@@ -1,24 +1,39 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Airline Project",
+  "name": "Airline",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "/flight_images/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "logo192.png",
+      "src": "/flight_images/AI.png",
+      "sizes": "75x60",
       "type": "image/png",
-      "sizes": "192x192"
+      "purpose": "any"
     },
     {
-      "src": "logo512.png",
+      "src": "/flight_images/GF.png",
+      "sizes": "237x185",
       "type": "image/png",
-      "sizes": "512x512"
+      "purpose": "any"
+    },  
+    {
+      "src": "/flight_images/IG.png",
+      "sizes": "75x60",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/flight_images/SG.png",
+      "sizes": "75x60",
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

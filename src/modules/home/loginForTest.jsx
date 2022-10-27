@@ -58,7 +58,7 @@ const googleLoginSuccess =(event) =>{
 }
 const googleLoginFaild =(event) =>{
   toast.error(event.error);
-  debugger ;
+   ;
 }
 function handelSubmit(event) {
 event.preventDefault();

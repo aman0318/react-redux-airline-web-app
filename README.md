@@ -15,21 +15,22 @@ pass:-testuser1
 // steps to run project 
 run code 
 1. npm install
-2.json-server --watch db.json
+2.json-server --watch db.json or npm run  json-server
 3.npm start 
 
 //For Login I have created  seperate user 
 
-1.For  Admin 
- email:-admin@gmail.com
- pass:-1234
 
- 2.Airline Staff -Check-In 
+ 1.Airline Staff -Check-In 
   email:-staff@gmail.com
  pass:-1234
 
-3.Airline Staff -In-Flight  
+2.Airline Staff -In-Flight  
   email:-inflight@gmail.com
+ pass:-1234
+
+ 3.For  Admin 
+ email:-admin@gmail.com
  pass:-1234
 
 ===================================================================================
